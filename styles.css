@@ -390,6 +390,47 @@ body {
   }
 }
 @media only screen and (max-width: 500px) {
+  .main{
+    height: 295vh;
+  }
+  .container{
+    height: 320vh;
+  }
+  .main_home{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .main_about{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .image{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contactform{
+    height: 60vh;
+  }
+  .short{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .short_about{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .footer {
     flex-direction: column;
     height: 10vh;
