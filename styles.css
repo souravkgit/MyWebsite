@@ -18,7 +18,13 @@ body{
     flex-direction: row;
     background-color: whitesmoke;
 }
-
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+#project_link{
+    width: auto;
+}
 .grid{
     width: 60%;
     display: flex;
@@ -151,14 +157,14 @@ body{
     justify-content: center;
     align-content: center;
     height: 35px;
-    width: 180px;
     background-color: blue;
     color: black;
     font-size: 20px;
+    padding: 10px 10px 10px 10px;
     font-weight: 400;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 6px;
-    border-style: groove;
+    border-style: hidden;
     margin-left: 48px;
     list-style-type: none;
     position: relative;
