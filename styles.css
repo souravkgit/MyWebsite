@@ -390,11 +390,11 @@ body {
   }
 }
 @media only screen and (max-width: 500px) {
-  .main{
-    height: 295vh;
-  }
   .container{
     height: 320vh;
+  }
+  .main{
+    height: 295vh;
   }
   .main_home{
     height: 60vh;

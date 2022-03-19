@@ -1,0 +1,11 @@
+@media only screen and (min-height: 1000px) {
+  .tilescont {
+    height: 600px;
+  }
+  .tilecont {
+    height: 600px;
+  }
+  .tile {
+    height: 600px;
+  }
+}
